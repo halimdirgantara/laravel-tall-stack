@@ -38,8 +38,8 @@ return [
             'js'      => 'https://cdn.jsdelivr.net/npm/flatpickr',
             'css'     => 'https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css',
             'locales' => [
-                'pt_BR' => [
-                    'locale'     => 'pt',
+                'id_ID' => [
+                    'locale'     => 'id',
                     'dateFormat' => 'd/m/Y H:i',
                     'enableTime' => true,
                     'time_24hr'  => true,
