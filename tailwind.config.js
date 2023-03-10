@@ -17,6 +17,7 @@ module.exports = {
         './app/**/*.php',
         './resources/**/*.html',
         './resources/**/*.js',
+        './node_modules/flowbite/**/*.js',
         './resources/**/*.jsx',
         './resources/**/*.ts',
         './resources/**/*.tsx',
@@ -27,5 +28,6 @@ module.exports = {
     plugins: [
         require('@tailwindcss/forms'),
         require('@tailwindcss/typography'),
+        require('flowbite/plugin'),
     ],
 }
