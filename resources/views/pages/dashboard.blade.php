@@ -1,4 +1,4 @@
-@extends('layouts.landing')
+@extends('layouts.app')
 
 @section('content')
     <div class="flex flex-col justify-center min-h-screen py-12 bg-gray-50 sm:px-6 lg:px-8">
@@ -15,16 +15,21 @@
 
                     <ul class="list-reset">
                         <li class="inline px-4">
-                            <a href="https://tailwindcss.com" class="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150">Tailwind CSS</a>
+                            <a href="https://tailwindcss.com"
+                                class="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150">Tailwind
+                                CSS</a>
                         </li>
                         <li class="inline px-4">
-                            <a href="https://github.com/alpinejs/alpine" class="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150">Alpine.js</a>
+                            <a href="https://github.com/alpinejs/alpine"
+                                class="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150">Alpine.js</a>
                         </li>
                         <li class="inline px-4">
-                            <a href="https://laravel.com" class="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150">Laravel</a>
+                            <a href="https://laravel.com"
+                                class="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150">Laravel</a>
                         </li>
                         <li class="inline px-4">
-                            <a href="https://laravel-livewire.com" class="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150">Livewire</a>
+                            <a href="https://laravel-livewire.com"
+                                class="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150">Livewire</a>
                         </li>
                     </ul>
                 </div>
